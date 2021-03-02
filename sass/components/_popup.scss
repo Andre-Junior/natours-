@@ -21,7 +21,7 @@
         display: table;
         overflow: hidden;
         opacity: 0;
-        transform: translate(-50%, -50%) scale(-2s);
+        transform: translate(-50%, -50%) scale(.25);
         transition: all .5s .2s;
     }
 
@@ -34,7 +34,7 @@
         width: 66.6666667%;
         display: table-cell;
         vertical-align: middle;
-        padding: 3rem 5rem;
+        padding: 1rem 5rem;
     }
 
     &__img {
@@ -43,8 +43,8 @@
     }
 
     &__text {
-        font-size: 1.4rem;
-        margin-bottom: 4rem;
+        font-size: 1.38rem;
+        margin-bottom: 1.5rem;
 
         column-count: 2;
         column-gap: 4rem;
