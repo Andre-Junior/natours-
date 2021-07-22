@@ -665,7 +665,7 @@ body {
     display: inline-block; }
     .footer__item:not(:last-child) {
       margin-right: 1.5rem; }
-  .footer__link:link, .footer__linkvisited {
+  .footer__link:link, .footer__link:visited {
     color: #f7f7f7;
     background-color: #333;
     text-decoration: none;
